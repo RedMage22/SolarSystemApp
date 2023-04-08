@@ -1,0 +1,120 @@
+
+.button {
+    -fx-font-family: 'Anurati';
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-font-size: 14;
+    -fx-pref-width: 120;
+}
+
+#volume-settings {
+    -fx-pref-width: 40;
+}
+
+#volume-settings: hover {
+    -fx-border-width: 0;
+}
+
+.button: hover {
+    -fx-font-family: 'Anurati';
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-font-size: 14;
+    -fx-pref-width: 120;
+    -fx-border-color: lightgray;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+
+#mercury-button: hover {
+    -fx-border-color: gray;
+}
+
+#venus-button: hover {
+    -fx-border-color: yellow;
+}
+
+#earth-button: hover {
+    -fx-border-color: seagreen;
+}
+
+#mars-button: hover {
+    -fx-border-color: coral;
+}
+
+#jupiter-button: hover {
+    -fx-border-color: rosybrown;
+}
+
+#saturn-button: hover {
+    -fx-border-color: blanchedalmond;
+}
+
+#uranus-button: hover {
+    -fx-border-color: lightblue;
+}
+
+#neptune-button: hover {
+    -fx-border-color: royalblue;
+}
+
+.button: pressed {
+    -fx-font-family: 'Anurati';
+    -fx-font-weight: bold;
+    -fx-background-radius: 22;
+    -fx-font-size: 14;
+    -fx-pref-width: 120;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+
+#mercury-button: selected {
+    -fx-background-color: lightgray;
+}
+
+#venus-button: selected {
+    -fx-background-color: yellow;
+}
+
+#earth-button: focus {
+    -fx-background-color: seagreen;
+}
+
+#mars-button: focus {
+    -fx-background-color: coral;
+}
+
+#jupiter-button: focus {
+    -fx-background-color: rosybrown;
+}
+
+#saturn-button: focus {
+    -fx-background-color: blanchedalmond;
+}
+
+#uranus-button: focus {
+    -fx-background-color: lightblue;
+}
+
+#neptune-button: focus {
+    -fx-background-color: royalblue;
+}
+
+.check-box .box {
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 11;
+    -fx-font-size: 14;
+}
+
+.check-box .box: hover {
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 11;
+    -fx-font-size: 14;
+    -fx-border-color: lightgray;
+    -fx-border-radius: 11;
+    -fx-border-width: 0;
+}
