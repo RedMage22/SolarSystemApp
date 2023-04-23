@@ -1,7 +1,7 @@
 plugins {
     id 'java'
     id 'application'
-    id 'org.openjfx.javafxplugin' version '0.0.11'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
 }
 
 group 'com.redmage'
@@ -22,8 +22,6 @@ sourceSets {
 
 repositories {
     mavenCentral()
-//    maven {url "http://maven.jzy3d.org/releases/"}
-//    jcenter()
     maven {
         url = "http://maven.jzy3d.org/releases"
     }
@@ -40,5 +38,4 @@ dependencies {
 
 javafx {
     modules = [ 'javafx.controls', 'javafx.fxml', 'javafx.swing', 'javafx.graphics', 'javafx.media' ]
-    version = '11.0.2'
 }
