@@ -7,7 +7,7 @@ plugins {
 group 'com.redmage'
 version '1.0-SNAPSHOT'
 
-mainClassName = '$moduleName/com.redmage.SolarSystemApp'
+mainClassName = 'com.redmage.SolarSystemApp'
 
 sourceSets {
     main {
